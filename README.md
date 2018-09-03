@@ -16,4 +16,6 @@ pNovoM has the following features:
 5. It can precisely sequence longer peptides than other algorithms.
 
 6. It can effectively discriminate the first two amino acids because of existing b1 ions.
-![image](https://github.com/pnovo/pNovoM//pNovoM.PNG)
+![image](
+      pNovoM/pNovoM.PNG
+    )
