@@ -32,4 +32,4 @@ A simple example is provided. There are two mgf files of trypsin and LysargiNase
 
 Input **pMerge.exe param_MergeMirror.txt** in command line and wait for processing. When finish, two mgf files named “output_trypsin.mgf” and “output_LysargiNase.mgf” will be generated. The number of spectra in these two mgf files is equal, spectra in the same place are mirror pairs.
 
-Then  **pNovoM.exe param_deNovoMirror.txt**, after a few hours, pNovoM will generate a result file named denovo_results.txt. 
+Then input **pNovoM.exe param_deNovoMirror.txt**, after a few hours, pNovoM will generate a result file named denovo_results.txt. 
