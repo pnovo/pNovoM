@@ -32,3 +32,14 @@ Input **pMerge.exe param_MergeMirror.txt** in command line and wait for processi
 
 Then input **pNovoM.exe param_deNovoMirror.txt**, after a few hours, pNovoM will generate a result file named denovo_results.txt. 
 
+## Downloads
+
+pNovoM is currently free to use. **[Download pNovoM](http://pfind.ict.ac.cn/software/pNovoM/index.html)**
+
+If you have any question about it, please contact pnovo@ict.ac.cn
+
+## pNovoM Release Notes
+
+#### Version 1.0
+* The first released version.
+
