@@ -34,9 +34,9 @@ Then input **pNovoM.exe param_deNovoMirror.txt**, after a few hours, pNovoM will
 
 ## Downloads
 
-pNovoM is currently free to use. **[Download pNovoM](http://pfind.ict.ac.cn/software/pNovoM/index.html)**
+pNovoM is currently free to use. **[Download pNovoM.](http://pfind.ict.ac.cn/software/pNovoM/index.html)**
 
-If you have any question about it, please contact pnovo@ict.ac.cn
+If you have any question about it, please contact pnovo@ict.ac.cn.
 
 ## pNovoM Release Notes
 
