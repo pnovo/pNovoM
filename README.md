@@ -36,7 +36,7 @@ Then input **pNovoM.exe param_deNovoMirror.txt**, after a few hours, pNovoM will
 
 pNovoM is currently free to use. **[Download pNovoM.](http://pfind.ict.ac.cn/software/pNovoM/index.html)**
 
-Notice: Please read carefully the [pNovoM Software License](http://pfind.ict.ac.cn/software/pNovoM/License.pdf) Agreement before downloading and using the software. Please fill in the registered table and email it to pnovo@ict.ac.cn to get the registration key.
+Notice: Please read carefully the **[pNovoM Software License Agreement](http://pfind.ict.ac.cn/software/pNovoM/License.pdf)** before downloading and using the software. Please fill in the registered table and email it to pnovo@ict.ac.cn to get the registration key.
 
 If you have any question about it, please contact pnovo@ict.ac.cn.
 
