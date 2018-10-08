@@ -1,4 +1,0 @@
-trypsinPath=output_trypsin.mgf
-r29Path=output_LysargiNase.mgf
-outputPath=
-ModelPath=train\model2.txt
