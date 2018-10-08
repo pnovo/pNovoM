@@ -1,0 +1,12 @@
+trypsinPath=trypsinM.mgf
+r29Path=lysarginaseM.mgf
+outputPath=result\
+#下面三个参数均是cluster用的,如果cluster=no那么这三个参数均无效
+#cluster=yes
+deltaScore=2
+TopN=10
+#N-term=27.994915
+#model2和model1最好，请选择一个
+ModelPath=train\model2.txt
+#splitGraph
+splitGraph=no

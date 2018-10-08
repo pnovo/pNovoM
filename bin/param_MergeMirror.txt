@@ -1,0 +1,10 @@
+validate=true
+trypsin_path=Example\trypsin.mgf
+r29_path=Example\LysargiNase.mgf
+type=mirror
+speedup=true
+#SVM=false means not use SVM and only use the de novo results to mirror
+denovo_result_trypsin_path=Example\trypsin.txt
+denovo_result_r29_path=Example\LysargiNase.txt
+SVM=false
+scoreT=10
