@@ -40,7 +40,7 @@ Set the mirror mgf path in param_deNovoMirror.txt, and input **pNovoM.exe param_
 
 After a few hours, pNovoM will generate a result filt named denovo_result.txt.
 <div align="center">
-  <img src="https://github.com/pnovo/pNovoM/blob/pNovoM/pNovoM2.jpg>
+  <img src="https://github.com/pnovo/pNovoM/blob/pNovoM/pNovoM2.jpg">
   </div>
 
 ## Downloads
