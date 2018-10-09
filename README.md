@@ -32,14 +32,13 @@ A simple example is provided.
 1. Input command to find mirror spectrum pairs. When finish, two mfg files named "output_trypsin.mgf" and "output_LysargiNase.mgf" will be generated. The sepctra in these mgf files are mirror pairs.
 > pMerge.exe param_MergeMirror.txt
 
+
 2. Set the mirror mgf path in param_DeNovoMirror.txt and run pNovoM.
 > pNovoM.exe param_DeNovoMirror.txt
 
+
 3. After processing, pNovoM will generated a result file named denovo_result.txt.
-<div align="center">
-  <img src="https://github.com/pnovo/pNovoM/blob/pNovoM/pNovoM2.jpg">
-  </div>
-  <p><b>Figure 2.</b> The interface of pNovoM.</p>
+
 
 ## Downloads
 
