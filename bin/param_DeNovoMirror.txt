@@ -1,12 +1,17 @@
-trypsinPath=trypsinM.mgf
-r29Path=lysarginaseM.mgf
-outputPath=result\
-#ÏÂÃæÈı¸ö²ÎÊı¾ùÊÇclusterÓÃµÄ,Èç¹ûcluster=noÄÇÃ´ÕâÈı¸ö²ÎÊı¾ùÎŞĞ§
+#set path of trypsin mgf file
+trypsinPath=
+#set path of LysargiNase mgf file 
+r29Path=
+#set output path
+outputPath=
+#ä¸‹é¢ä¸‰ä¸ªå‚æ•°å‡æ˜¯clusterç”¨çš„,å¦‚æœcluster=noé‚£ä¹ˆè¿™ä¸‰ä¸ªå‚æ•°å‡æ— æ•ˆ
+#the follow three parameters are for cluster, if cluster=no, the three parameters are invalid
 #cluster=yes
 deltaScore=2
 TopN=10
 #N-term=27.994915
-#model2ºÍmodel1×îºÃ£¬ÇëÑ¡ÔñÒ»¸ö
+#set model
+#model2å’Œmodel1æœ€å¥½ï¼Œè¯·é€‰æ‹©ä¸€ä¸ª
 ModelPath=train\model2.txt
 #splitGraph
 splitGraph=no
