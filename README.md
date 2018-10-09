@@ -17,7 +17,7 @@ pNovoM has the following features:
 ![image](https://github.com/pnovo/pNovoM/blob/pNovoM/pNovoM.PNG)
 <p><b>Figure 1.</b> Mirror protease strategy for novel de novo sequencing. <b>(a)</b> The mirror spectra improved the quality of the matched peptide-spectrum pairs by providing a complete set of fragment ions and recognizable directions of most ions (marked with blue circles, e.g., vertices 2, 3, 4 and 5). Two dotted peaks denote that b1 and y6 were missing in the trypsin spectrum. <b>(b)</b> Workflow of the pNovoM algorithm based on the mirror protease strategy for de novo sequencing. Mirror spectrum pairs from trypsin- and Ac-LysargiNase-digested samples were found and twinned using pNovoM. Then, the two spectra in each pair were merged into one spectrum graph.</p>
 
-## Command
+## Command to use pNovoM
 The pNovoM software currently can only be run by command line.
 
 Three steps to use the pNovoM: 
@@ -27,18 +27,16 @@ Three steps to use the pNovoM:
 
 3. De novo the mirror spectra pairs (pNovoM).
 
-A simple example is provided.
+A simple example is provided. You can follow the instruction below to test the example.
 
-1. Input command to find mirror spectrum pairs. When finish, two mfg files named "output_trypsin.mgf" and "output_LysargiNase.mgf" will be generated. The sepctra in these mgf files are mirror pairs.
+1. Set the resourcec mgf path in param_MergeMirror.txt, input command to find mirror spectrum pairs. When finish processing, two mfg files named "output_trypsin.mgf" and "output_LysargiNase.mgf" will be generated. The sepctra in these mgf files are mirror pairs.
+
 > pMerge.exe param_MergeMirror.txt
 
 
-2. Set the mirror mgf path in param_DeNovoMirror.txt and run pNovoM.
+2. Set the mirror mgf path in param_DeNovoMirror.txt and run pNovoM. Finally, pNovoM will generated a result file named "denovo_result.txt".
+
 > pNovoM.exe param_DeNovoMirror.txt
-
-
-3. After processing, pNovoM will generated a result file named denovo_result.txt.
-
 
 ## Downloads
 
