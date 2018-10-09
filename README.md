@@ -26,25 +26,22 @@ Three steps to use the pNovoM:
 
 3. De novo the mirror spectra pairs (pNovoM).
 
-A simple example is provided. There are two mgf files of trypsin and LysargiNase, and two txt files of which are the sequencing results of those mgf files.
+A simple example is provided. 
 
-Input **pMerge.exe param_MergeMirror.txt** in command line and wait for processing. When finish, two mgf files named “output_trypsin.mgf” and “output_LysargiNase.mgf” will be generated. The number of spectra in these two mgf files is equal, spectra in the same place are mirror pairs.
 <div align="center">
   <img src="https://github.com/pnovo/pNovoM/blob/pNovoM/pMerge.jpg">
   </div>
-  <p><b>Figure 2.</b>pMerge</p>
+  <p><b>Figure 2.</b>Input **pMerge.exe param_MergeMirror.txt** in command line and wait for processing. When finish, two mgf files named “output_trypsin.mgf” and “output_LysargiNase.mgf” will be generated. The number of spectra in these two mgf files is equal, spectra in the same place are mirror pairs.</p>
 
-Set the mirror mgf path in param_deNovoMirror.txt, and input **pNovoM.exe param_deNovoMirror.txt**, pNovoM will begin to de novo the mirror pairs. 
 <div align="center">
   <img src="https://github.com/pnovo/pNovoM/blob/pNovoM/pNovoM1.jpg">
   </div>
-  <p><b>Figure 3.</b>pNovoM</p>
+  <p><b>Figure 3.</b>Set the mirror mgf path in param_deNovoMirror.txt, and input **pNovoM.exe param_deNovoMirror.txt**, pNovoM will begin to de novo the mirror pairs. </p>
 
-After a few hours, pNovoM will generate a result filt named denovo_result.txt.
 <div align="center">
   <img src="https://github.com/pnovo/pNovoM/blob/pNovoM/pNovoM2.jpg">
   </div>
-  <p><b>Figure 4.</b>The interface of pNovoM.</p>
+  <p><b>Figure 4.</b>After a few hours, pNovoM will generate a result filt named denovo_result.txt.</p>
 
 ## Downloads
 
