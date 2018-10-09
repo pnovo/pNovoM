@@ -29,7 +29,7 @@ Three steps to use the pNovoM:
 
 A simple example is provided. You can follow the instruction below to test the example.
 
-1. Set the resourcec mgf path in param_MergeMirror.txt, input command to find mirror spectrum pairs. When finish processing, two mfg files named "output_trypsin.mgf" and "output_LysargiNase.mgf" will be generated. The sepctra in these mgf files are mirror pairs.
+1. Set the resource mgf path in param_MergeMirror.txt, run pMerge to find mirror spectrum pairs. When finish processing, two mfg files named "output_trypsin.mgf" and "output_LysargiNase.mgf" will be generated. The sepctra in these mgf files are mirror pairs.
 
 > pMerge.exe param_MergeMirror.txt
 
