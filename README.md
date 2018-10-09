@@ -29,6 +29,7 @@ Three steps to use the pNovoM:
 ## Example
 A simple example is provided. 
 
+'pMerge.exe param_MergeMirror.txt'
 <div align="center">
   <img src="https://github.com/pnovo/pNovoM/blob/pNovoM/pMerge.jpg">
   </div>
