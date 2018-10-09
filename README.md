@@ -34,8 +34,14 @@ Input **pMerge.exe param_MergeMirror.txt** in command line and wait for processi
   </div>
 
 Set the mirror mgf path in param_deNovoMirror.txt, and input **pNovoM.exe param_deNovoMirror.txt**, pNovoM will begin to de novo the mirror pairs. 
+<div align="center">
+  <img src="https://github.com/pnovo/pNovoM/blob/pNovoM/pNovoM1.jpg">
+  </div>
 
 After a few hours, pNovoM will generate a result filt named denovo_result.txt.
+<div align="center">
+  <img src="https://github.com/pnovo/pNovoM/blob/pNovoM/pNovoM2.jpg>
+  </div>
 
 ## Downloads
 
