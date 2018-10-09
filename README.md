@@ -29,6 +29,9 @@ Three steps to use the pNovoM:
 A simple example is provided. There are two mgf files of trypsin and LysargiNase, and two txt files of which are the sequencing results of those mgf files.
 
 Input **pMerge.exe param_MergeMirror.txt** in command line and wait for processing. When finish, two mgf files named “output_trypsin.mgf” and “output_LysargiNase.mgf” will be generated. The number of spectra in these two mgf files is equal, spectra in the same place are mirror pairs.
+<div align="center">
+  <img src="https://github.com/pnovo/pNovoM/blob/pNovoM/pMerge.jpg">
+  </div>
 
 Set the mirror mgf path in param_deNovoMirror.txt, and input **pNovoM.exe param_deNovoMirror.txt**, pNovoM will begin to de novo the mirror pairs. 
 
