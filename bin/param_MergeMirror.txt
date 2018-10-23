@@ -1,6 +1,6 @@
 validate=true
 #set the source trypsin mgf path
-trypsin_path=
+trypsin_path=Example\trypsin.mgf
 #set the source LysargiNase mgf path
 r29_path=Example\LysargiNase.mgf
 type=mirror
