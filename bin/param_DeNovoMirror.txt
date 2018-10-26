@@ -1,8 +1,10 @@
 #set path of trypsin mgf file
-trypsinPath=
-#set path of LysargiNase mgf file 
-r29Path=
-#set output path
+#trypsinPath=output_trypsin.mgf
+trypsinPath=..\example\trypsin.mgf
+#set path of Ac-LysargiNase mgf file 
+#r29Path=output_LysargiNase.mgf
+r29path=..\example\LysargiNase.mgf
+#set output path, the default output file is denovo_result.txt
 outputPath=
 #下面三个参数均是cluster用的,如果cluster=no那么这三个参数均无效
 #the follow three parameters are for cluster, if cluster=no, the three parameters are invalid

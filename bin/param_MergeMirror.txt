@@ -1,13 +1,13 @@
 validate=true
 #set the source trypsin mgf path
-trypsin_path=Example\trypsin.mgf
+trypsin_path=..\example\trypsin.mgf
 #set the source LysargiNase mgf path
-r29_path=Example\LysargiNase.mgf
+r29_path=..\example\LysargiNase.mgf
 type=mirror
 speedup=true
 #SVM=false means not use SVM and only use the de novo results to mirror
 #set the de novo result path
-denovo_result_trypsin_path=
-denovo_result_r29_path=
+denovo_result_trypsin_path=..\example\trypsin.txt
+denovo_result_r29_path=..\example\LysargiNase.txt
 SVM=false
 scoreT=10
