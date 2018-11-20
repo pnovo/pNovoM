@@ -21,15 +21,15 @@ pNovoM has the following features:
 The pNovoM software currently can only be run by command line.
 
 Three steps to use the pNovoM: 
-1. Sequencing the trypsin and LysargiNase spectra (pNovo).
+1. De novo sequencing the trypsin and LysargiNase spectra (pNovo).
 
 2. Finding mirror spectra pairs in the two sequencing result sets (pMerge).
 
-3. De novo the mirror spectra pairs (pNovoM).
+3. De novo sequencing the mirror spectra pairs (pNovoM).
 
 A simple example is provided. You can follow the instruction below to test the example.
 
-1. Set the resource mgf path in param_MergeMirror.txt, run pMerge to find mirror spectrum pairs. When finish processing, two mfg files named "output_trypsin.mgf" and "output_LysargiNase.mgf" will be generated. The sepctra in these mgf files are mirror pairs.
+1. Set the resource mgf path in param_MergeMirror.txt, run pMerge to find mirror spectrum pairs. When finish processing, two mgf files named "output_trypsin.mgf" and "output_LysargiNase.mgf" will be generated. The sepctra in these mgf files are mirror pairs.
 
 > pMerge.exe param_MergeMirror.txt
 
