@@ -1,19 +1,15 @@
 #set path of trypsin mgf file
-#trypsinPath=output_trypsin.mgf
-trypsinPath=..\example\trypsin.mgf
+trypsinPath=output_trypsin.mgf
 #set path of Ac-LysargiNase mgf file 
-#r29Path=output_LysargiNase.mgf
-r29path=..\example\LysargiNase.mgf
+r29Path=output_LysargiNase.mgf
 #set output path, the default output file is denovo_result.txt
 outputPath=
-#下面三个参数均是cluster用的,如果cluster=no那么这三个参数均无效
 #the follow three parameters are for cluster, if cluster=no, the three parameters are invalid
 #cluster=yes
 deltaScore=2
 TopN=10
 #N-term=27.994915
-#set model
-#model2和model1最好，请选择一个
+#set model, default setting is recommended 
 ModelPath=train\model2.txt
 #splitGraph
 splitGraph=no
